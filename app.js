@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const mysql= require('mysql');
+/* const mysql= require('mysql');
 
 //create connection
 const db = mysql.createConnection({
@@ -9,7 +9,7 @@ const db = mysql.createConnection({
     clave: "admin",
     database: "location"
         
-});
+}); */
 //connect
 /* db.connect((err) => {
     if (err){
@@ -33,7 +33,7 @@ const db = mysql.createConnection({
 
 
 
-app.listen(10000);
+app.listen(80);
 app.use(express.static('MyWebApp'));
 
 
